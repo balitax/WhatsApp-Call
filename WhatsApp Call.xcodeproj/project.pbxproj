@@ -13,6 +13,8 @@
 		2636F6AB25EFC84400F36B2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2636F6AA25EFC84400F36B2E /* Preview Assets.xcassets */; };
 		2636F6B625EFC84500F36B2E /* WhatsApp_CallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F6B525EFC84500F36B2E /* WhatsApp_CallTests.swift */; };
 		2636F6C125EFC84500F36B2E /* WhatsApp_CallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F6C025EFC84500F36B2E /* WhatsApp_CallUITests.swift */; };
+		2636F6D225EFCFE100F36B2E /* whatsapp_nokia_tune.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2636F6D125EFCFE100F36B2E /* whatsapp_nokia_tune.mp3 */; };
+		2636F6DF25EFD13A00F36B2E /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F6DE25EFD13A00F36B2E /* SoundManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		2636F6BC25EFC84500F36B2E /* WhatsApp CallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhatsApp CallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2636F6C025EFC84500F36B2E /* WhatsApp_CallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsApp_CallUITests.swift; sourceTree = "<group>"; };
 		2636F6C225EFC84500F36B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2636F6D125EFCFE100F36B2E /* whatsapp_nokia_tune.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whatsapp_nokia_tune.mp3; sourceTree = "<group>"; };
+		2636F6DE25EFD13A00F36B2E /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				2636F6A325EFC84200F36B2E /* WhatsApp_CallApp.swift */,
 				2636F6A525EFC84200F36B2E /* ContentView.swift */,
+				2636F6D125EFCFE100F36B2E /* whatsapp_nokia_tune.mp3 */,
+				2636F6DE25EFD13A00F36B2E /* SoundManager.swift */,
 				2636F6A725EFC84400F36B2E /* Assets.xcassets */,
 				2636F6AC25EFC84400F36B2E /* Info.plist */,
 				2636F6A925EFC84400F36B2E /* Preview Content */,
@@ -235,6 +241,7 @@
 			files = (
 				2636F6AB25EFC84400F36B2E /* Preview Assets.xcassets in Resources */,
 				2636F6A825EFC84400F36B2E /* Assets.xcassets in Resources */,
+				2636F6D225EFCFE100F36B2E /* whatsapp_nokia_tune.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			files = (
 				2636F6A625EFC84200F36B2E /* ContentView.swift in Sources */,
 				2636F6A425EFC84200F36B2E /* WhatsApp_CallApp.swift in Sources */,
+				2636F6DF25EFD13A00F36B2E /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
