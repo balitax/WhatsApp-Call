@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2636F6A425EFC84200F36B2E /* WhatsApp_CallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F6A325EFC84200F36B2E /* WhatsApp_CallApp.swift */; };
+		2636F6A625EFC84200F36B2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F6A525EFC84200F36B2E /* ContentView.swift */; };
+		2636F6A825EFC84400F36B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2636F6A725EFC84400F36B2E /* Assets.xcassets */; };
+		2636F6AB25EFC84400F36B2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2636F6AA25EFC84400F36B2E /* Preview Assets.xcassets */; };
+		2636F6B625EFC84500F36B2E /* WhatsApp_CallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F6B525EFC84500F36B2E /* WhatsApp_CallTests.swift */; };
+		2636F6C125EFC84500F36B2E /* WhatsApp_CallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F6C025EFC84500F36B2E /* WhatsApp_CallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2636F6B225EFC84500F36B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2636F69825EFC84200F36B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2636F69F25EFC84200F36B2E;
+			remoteInfo = "WhatsApp Call";
+		};
+		2636F6BD25EFC84500F36B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2636F69825EFC84200F36B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2636F69F25EFC84200F36B2E;
+			remoteInfo = "WhatsApp Call";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2636F6A025EFC84200F36B2E /* WhatsApp Call.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatsApp Call.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2636F6A325EFC84200F36B2E /* WhatsApp_CallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsApp_CallApp.swift; sourceTree = "<group>"; };
+		2636F6A525EFC84200F36B2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2636F6A725EFC84400F36B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2636F6AA25EFC84400F36B2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2636F6AC25EFC84400F36B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2636F6B125EFC84500F36B2E /* WhatsApp CallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhatsApp CallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2636F6B525EFC84500F36B2E /* WhatsApp_CallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsApp_CallTests.swift; sourceTree = "<group>"; };
+		2636F6B725EFC84500F36B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2636F6BC25EFC84500F36B2E /* WhatsApp CallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhatsApp CallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2636F6C025EFC84500F36B2E /* WhatsApp_CallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsApp_CallUITests.swift; sourceTree = "<group>"; };
+		2636F6C225EFC84500F36B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2636F69D25EFC84200F36B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2636F6AE25EFC84500F36B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2636F6B925EFC84500F36B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2636F69725EFC84200F36B2E = {
+			isa = PBXGroup;
+			children = (
+				2636F6A225EFC84200F36B2E /* WhatsApp Call */,
+				2636F6B425EFC84500F36B2E /* WhatsApp CallTests */,
+				2636F6BF25EFC84500F36B2E /* WhatsApp CallUITests */,
+				2636F6A125EFC84200F36B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2636F6A125EFC84200F36B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2636F6A025EFC84200F36B2E /* WhatsApp Call.app */,
+				2636F6B125EFC84500F36B2E /* WhatsApp CallTests.xctest */,
+				2636F6BC25EFC84500F36B2E /* WhatsApp CallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2636F6A225EFC84200F36B2E /* WhatsApp Call */ = {
+			isa = PBXGroup;
+			children = (
+				2636F6A325EFC84200F36B2E /* WhatsApp_CallApp.swift */,
+				2636F6A525EFC84200F36B2E /* ContentView.swift */,
+				2636F6A725EFC84400F36B2E /* Assets.xcassets */,
+				2636F6AC25EFC84400F36B2E /* Info.plist */,
+				2636F6A925EFC84400F36B2E /* Preview Content */,
+			);
+			path = "WhatsApp Call";
+			sourceTree = "<group>";
+		};
+		2636F6A925EFC84400F36B2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2636F6AA25EFC84400F36B2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2636F6B425EFC84500F36B2E /* WhatsApp CallTests */ = {
+			isa = PBXGroup;
+			children = (
+				2636F6B525EFC84500F36B2E /* WhatsApp_CallTests.swift */,
+				2636F6B725EFC84500F36B2E /* Info.plist */,
+			);
+			path = "WhatsApp CallTests";
+			sourceTree = "<group>";
+		};
+		2636F6BF25EFC84500F36B2E /* WhatsApp CallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2636F6C025EFC84500F36B2E /* WhatsApp_CallUITests.swift */,
+				2636F6C225EFC84500F36B2E /* Info.plist */,
+			);
+			path = "WhatsApp CallUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2636F69F25EFC84200F36B2E /* WhatsApp Call */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2636F6C525EFC84500F36B2E /* Build configuration list for PBXNativeTarget "WhatsApp Call" */;
+			buildPhases = (
+				2636F69C25EFC84200F36B2E /* Sources */,
+				2636F69D25EFC84200F36B2E /* Frameworks */,
+				2636F69E25EFC84200F36B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhatsApp Call";
+			productName = "WhatsApp Call";
+			productReference = 2636F6A025EFC84200F36B2E /* WhatsApp Call.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2636F6B025EFC84500F36B2E /* WhatsApp CallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2636F6C825EFC84500F36B2E /* Build configuration list for PBXNativeTarget "WhatsApp CallTests" */;
+			buildPhases = (
+				2636F6AD25EFC84500F36B2E /* Sources */,
+				2636F6AE25EFC84500F36B2E /* Frameworks */,
+				2636F6AF25EFC84500F36B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2636F6B325EFC84500F36B2E /* PBXTargetDependency */,
+			);
+			name = "WhatsApp CallTests";
+			productName = "WhatsApp CallTests";
+			productReference = 2636F6B125EFC84500F36B2E /* WhatsApp CallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2636F6BB25EFC84500F36B2E /* WhatsApp CallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2636F6CB25EFC84500F36B2E /* Build configuration list for PBXNativeTarget "WhatsApp CallUITests" */;
+			buildPhases = (
+				2636F6B825EFC84500F36B2E /* Sources */,
+				2636F6B925EFC84500F36B2E /* Frameworks */,
+				2636F6BA25EFC84500F36B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2636F6BE25EFC84500F36B2E /* PBXTargetDependency */,
+			);
+			name = "WhatsApp CallUITests";
+			productName = "WhatsApp CallUITests";
+			productReference = 2636F6BC25EFC84500F36B2E /* WhatsApp CallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2636F69825EFC84200F36B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2636F69F25EFC84200F36B2E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2636F6B025EFC84500F36B2E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2636F69F25EFC84200F36B2E;
+					};
+					2636F6BB25EFC84500F36B2E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2636F69F25EFC84200F36B2E;
+					};
+				};
+			};
+			buildConfigurationList = 2636F69B25EFC84200F36B2E /* Build configuration list for PBXProject "WhatsApp Call" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2636F69725EFC84200F36B2E;
+			productRefGroup = 2636F6A125EFC84200F36B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2636F69F25EFC84200F36B2E /* WhatsApp Call */,
+				2636F6B025EFC84500F36B2E /* WhatsApp CallTests */,
+				2636F6BB25EFC84500F36B2E /* WhatsApp CallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2636F69E25EFC84200F36B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2636F6AB25EFC84400F36B2E /* Preview Assets.xcassets in Resources */,
+				2636F6A825EFC84400F36B2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2636F6AF25EFC84500F36B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2636F6BA25EFC84500F36B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2636F69C25EFC84200F36B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2636F6A625EFC84200F36B2E /* ContentView.swift in Sources */,
+				2636F6A425EFC84200F36B2E /* WhatsApp_CallApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2636F6AD25EFC84500F36B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2636F6B625EFC84500F36B2E /* WhatsApp_CallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2636F6B825EFC84500F36B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2636F6C125EFC84500F36B2E /* WhatsApp_CallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2636F6B325EFC84500F36B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2636F69F25EFC84200F36B2E /* WhatsApp Call */;
+			targetProxy = 2636F6B225EFC84500F36B2E /* PBXContainerItemProxy */;
+		};
+		2636F6BE25EFC84500F36B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2636F69F25EFC84200F36B2E /* WhatsApp Call */;
+			targetProxy = 2636F6BD25EFC84500F36B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2636F6C325EFC84500F36B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2636F6C425EFC84500F36B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2636F6C625EFC84500F36B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsApp Call/Preview Content\"";
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WhatsApp Call/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "agus.app.WhatsApp-Call";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2636F6C725EFC84500F36B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsApp Call/Preview Content\"";
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WhatsApp Call/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "agus.app.WhatsApp-Call";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2636F6C925EFC84500F36B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "WhatsApp CallTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "agus.app.WhatsApp-CallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsApp Call.app/WhatsApp Call";
+			};
+			name = Debug;
+		};
+		2636F6CA25EFC84500F36B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "WhatsApp CallTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "agus.app.WhatsApp-CallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsApp Call.app/WhatsApp Call";
+			};
+			name = Release;
+		};
+		2636F6CC25EFC84500F36B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "WhatsApp CallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "agus.app.WhatsApp-CallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WhatsApp Call";
+			};
+			name = Debug;
+		};
+		2636F6CD25EFC84500F36B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "WhatsApp CallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "agus.app.WhatsApp-CallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WhatsApp Call";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2636F69B25EFC84200F36B2E /* Build configuration list for PBXProject "WhatsApp Call" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2636F6C325EFC84500F36B2E /* Debug */,
+				2636F6C425EFC84500F36B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2636F6C525EFC84500F36B2E /* Build configuration list for PBXNativeTarget "WhatsApp Call" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2636F6C625EFC84500F36B2E /* Debug */,
+				2636F6C725EFC84500F36B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2636F6C825EFC84500F36B2E /* Build configuration list for PBXNativeTarget "WhatsApp CallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2636F6C925EFC84500F36B2E /* Debug */,
+				2636F6CA25EFC84500F36B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2636F6CB25EFC84500F36B2E /* Build configuration list for PBXNativeTarget "WhatsApp CallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2636F6CC25EFC84500F36B2E /* Debug */,
+				2636F6CD25EFC84500F36B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2636F69825EFC84200F36B2E /* Project object */;
+}
